@@ -1,0 +1,202 @@
+.header{
+    background-color: #12372A;
+    display: flex;
+    justify-content: space-between;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    font-family: 'Lexend Zetta', sans-serif;
+    color: #FBFADA;
+    margin: auto;
+}
+.personal-links{
+    font-family: 'Lexend Zetta', sans-serif;
+    color: #FBFADA;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.8fr;
+    gap: 30px;
+}
+.hero{
+    background-color: #436850;
+}
+.hero > h1{
+    font-family: 'Lexend Zetta', sans-serif;
+    color: #FBFADA;
+    margin-top: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.profile-pic > img{
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.profile-text > ul{
+    font-family: 'Lexend Zetta', sans-serif;
+    color: #FBFADA;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7rem;
+}
+
+
+.skills {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #ADBC9F;
+}
+.skills > h1{
+    margin: 0;
+    font-family: 'Lexend Zetta', sans-serif;
+    color: #12372A;
+    font-size: 2rem;
+    top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.container-skills{
+    display: flex;
+    justify-content: center;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.2fr;
+    gap: 3rem;
+}
+.skills-container div{
+    font-family: 'Lexend Zetta', sans-serif;
+    color: #12372A;
+    font-size: 1rem;
+}
+.education{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #FBFADA;
+}
+.education > h1{
+    margin: 0;
+    font-family: 'Lexend Zetta', sans-serif;
+    color: #12372A;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    top: 2rem;
+}
+.education-info{
+    font-family: 'Lexend Zetta', sans-serif;
+    color: #12372A;
+    font-size: 1.33rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.list-spacing{
+    margin-bottom: 2rem;
+}
+
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #12372A;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.linkers{
+    display: grid;
+    gap: 20px;
+    color: #FBFADA;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 0.8rem;
+}
+.footer > div > p{
+    color: #FBFADA;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 0.8rem;
+}
+@media (max-width: 900px) {
+    .profile-pic > img{
+        width: 200px;
+        height: 200px;
+        margin-right: 0;
+    }
+    .profile-text > ul{
+        font-size: 1rem;
+    }
+    .hero > h1{
+        font-size: 1.5rem;
+    }
+    .skills > h1{
+        font-size: 1.5rem;
+    }
+    .skills-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+    .education > h1{
+        font-size: 1.5rem;
+    }
+    .education-info{
+        font-size: 1rem;
+    }
+    .awards > h1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 535px) {
+    .personal-links{
+        font-family: 'Lexend Zetta', sans-serif;
+        color: #FBFADA;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 3px;
+    }
+    .header{
+        padding: 0.5rem;
+    }
+    .profile-pic > img{
+        width: 150px;
+        height: 150px;
+    }
+    .profile-text > ul{
+        font-size: 0.90rem;
+        margin: 0;
+        position: relative;
+        right: 5%;
+    }
+    .flex-for-phone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-container{
+        display:block;
+        align-items: center; 
+    }
+    .profile-pic > img{
+        margin: 0;
+        position: relative;
+        left: 20%;
+        margin-bottom: 1rem;
+    }
+}
